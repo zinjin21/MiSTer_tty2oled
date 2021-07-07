@@ -970,7 +970,7 @@ void usb2oled_readnsetrotation(void) {
   rT=newCore.substring(7);
 
 #ifdef XDEBUG
-  Serial.printf("Received Text: %s\n", (char*)pT.c_str());
+  Serial.printf("Received Text: %s\n", (char*)rT.c_str());
 #endif
 
   r=rT.toInt();
